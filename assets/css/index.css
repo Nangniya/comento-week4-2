@@ -1,0 +1,59 @@
+.whole-container {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #f7c1ba;
+  padding: 20px;
+}
+.title {
+  text-align: center;
+}
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.email-input-box {
+  display: flex;
+  gap: 5px;
+}
+.input-factor {
+  height: 35px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: none;
+}
+.required {
+  color: #d75a4a;
+  font-weight: bold;
+}
+.email-input-box > .input-factor {
+  flex-grow: 1;
+}
+#check_duplicate_btn {
+  width: 100px;
+  border: none;
+  background-color: #d75a4a;
+  color: white;
+  font-weight: bold;
+}
+.description {
+  font-size: 13px;
+  padding-left: 5px;
+}
+#submit_btn {
+  height: 50px;
+  border: none;
+  background-color: #d75a4a;
+  margin-top: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
