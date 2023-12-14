@@ -7,6 +7,7 @@ const emailDB = [
   {
     email: "def23@gmail.com",
     password: "Example02!@#",
+    name: "",
   },
 ];
 
