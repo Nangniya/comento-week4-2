@@ -64,7 +64,6 @@ function handleOnSubmit(e) {
 
   if (!isUsableId) {
     alert("이메일 중복 확인을 해주세요.");
-    emailInputNode.focus();
   } else if (!isFormatValid(password, passwordRegex)) {
     alert("올바른 비밀번호 형식으로 입력해주세요.");
     passwordInputNode.value = "";
