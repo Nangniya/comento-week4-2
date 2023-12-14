@@ -68,6 +68,7 @@ function handleOnSubmit(e) {
   } else if (!isFormatValid(password, passwordRegex)) {
     alert("올바른 비밀번호 형식으로 입력해주세요.");
     passwordInputNode.value = "";
+    passwordConfirmInputNode.value = "";
     passwordInputNode.focus();
   } else if (password !== passwordConfirm) {
     alert("비밀번호가 일치하지 않습니다.");
